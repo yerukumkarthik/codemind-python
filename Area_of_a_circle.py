@@ -1,1 +1,2 @@
-print("%.2f"%(3.14*int(input())**2))
+num=int(input())
+print("%.2f"%(3.14*num*num))
