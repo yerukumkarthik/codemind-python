@@ -1,13 +1,9 @@
 num=int(input())
 s=0
-i=0
-while(1):
-    if i>num:
-        s=1
-        break
+for i in range(num):
     if i*(i+1)==num:
+        s=1
         print("YES")
         break
-    i+=1
-if s==1:
+if s==0:
     print("NO")
